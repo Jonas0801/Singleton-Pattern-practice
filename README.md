@@ -1,4 +1,4 @@
-# Singleton-practice
+# Singleton-Pattern-practice
 
 example
 
