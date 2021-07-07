@@ -19,3 +19,5 @@ public class A : MonoBehaviour
     }
 }
 ```
+
+> Output : Hello world
