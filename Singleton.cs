@@ -21,7 +21,7 @@ namespace DesignPattern
                 {
                     if (instance == null)
                     {
-                        instance = (T)FindObjectOfType(typeof(T));
+                        instance = FindObjectOfType(typeof(T)) as T;
 
                         if (instance == null)
                         {
