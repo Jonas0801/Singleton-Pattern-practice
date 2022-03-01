@@ -35,14 +35,9 @@ namespace DesignPattern
             }
         }
 
-        private void OnDestroy()
-        {
-            isShuttingDown = false;
-        }
-
         private void OnApplicationQuit()
         {
-            isShuttingDown = false;
+            isShuttingDown = true;
         }
     }
 }
